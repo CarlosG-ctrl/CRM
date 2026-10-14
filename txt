@@ -1,0 +1,86 @@
+CRM para gestionar clientes y ventas
+
+1. El proyecto a construir es
+
+Una aplicación web para registrar clientes, administrar contactos, hacer seguimiento a oportunidades comerciales y consultar estadísticas.
+* Demuestra: desarrollo web, lógica de programación, CRUD, bases de datos y resolución de problemas.
+
+Problema que resuelve: las pequeñas empresas necesitan organizar sus clientes, registrar interacciones y dar seguimiento a las oportunidades de venta sin depender de hojas de cálculo desordenadas.
+
+Objetivo de la primera versión: desarrollar una aplicación web donde un usuario pueda registrar clientes, administrar oportunidades comerciales, actualizar el estado de una venta y consultar un resumen de resultados.
+
+Aquí esta el diagrama de flujo: https://lucid.app/lucidchart/361c6e18-3a3c-4277-99e4-0928a1b72705/edit?invitationId=inv_093cd575-712d-4488-80de-4aa80aad2f3b
+
+
+2. Tecnologías a utilizar
+
+Tecnología	 | Función en el proyecto
+HTML5	     | Estructura de las páginas.
+CSS3	     | Diseño visual y adaptación a móviles.
+JavaScript   | Interactividad, formularios, búsquedas y validaciones.
+PHP          | Lógica del servidor y comunicación con la base de datos.
+MySQL        | Almacenamiento de clientes y oportunidades de venta.
+Git y GitHub | Historial de cambios y publicación del código.
+
+Trabajaremos con una arquitectura sencilla de frontend, backend y base de datos. Primero haremos funcionar la aplicación en el navegador con datos de prueba; después conectaremos el servidor y MySQL.
+
+3. Ruta de desarrollo por etapas
+Propongo un plan de seis semanas, ajustable según tu disponibilidad. Cada etapa termina con un resultado verificable.
+
+01
+Semana 1 — Diseño y estructura
+- Definir los requisitos del CRM.
+- Diseñar el panel de control y la navegación.
+- Crear el repositorio de GitHub.
+- Organizar HTML, CSS y JavaScript en archivos separados.
+Resultado: interfaz inicial navegable.
+
+
+
+02
+Semana 2 — Módulo de clientes
+- Crear el formulario de registro.
+- Mostrar clientes en una tabla.
+- Implementar edición y eliminación.
+- Validar campos obligatorios y correo electrónico.
+Resultado: gestión de clientes funcional con datos de prueba.
+
+
+
+03
+Semana 3 — Seguimiento de ventas
+- Registrar una oportunidad y vincularla con un cliente.
+- Definir las etapas: prospecto, calificada, propuesta, ganada y perdida.
+- Permitir cambiar la etapa y el valor estimado.
+- Filtrar oportunidades por estado.
+Resultado: flujo comercial funcional.
+
+
+
+04
+Semana 4 — Backend y base de datos
+- Diseñar las tablas en MySQL.
+- Crear el servidor con PHP.
+- Conectar los formularios con el backend.
+- Implementar operaciones CRUD mediante consultas preparadas.
+Resultado: los datos se guardan de forma persistente.
+
+
+
+05
+Semana 5 — Dashboard e integración
+- Calcular clientes registrados.
+- Contabilizar oportunidades abiertas.
+- Mostrar el valor de las oportunidades y las ventas ganadas.
+- Revisar que los indicadores coincidan con los datos reales.
+Resultado: CRM integrado con información real de la base de datos.
+
+
+
+06
+Semana 6 — Pruebas y portafolio
+- Probar formularios, filtros y operaciones CRUD.
+- Corregir errores y mejorar el diseño adaptable.
+- Documentar instalación, funcionalidades y estructura.
+- Preparar capturas, demostración y explicación técnica para entrevistas.
+Resultado: proyecto listo para presentar, si cumple las pruebas.
