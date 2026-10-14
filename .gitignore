@@ -1,27 +1,17 @@
-# --- Archivos de Visual Studio (VS) ---
-.vs/
-*.user
-*.userosscache
-*.sln.docstates
-*.suo
-Debug/
-Release/
-x64/
-x86/
-bld/
-[Bb]in/
-[Oo]bj/
+# Dependencias pesadas
+node_modules/
+jspm_packages/
+web_modules/
 
-# --- Archivos de Visual Studio Code (VS Code) ---
-.vscode/
-!.vscode/extensions.json
-
-# --- Archivos del Sistema Operativo ---
-Thumbs.db
-desktop.ini
+# Archivos del sistema operativo
 .DS_Store
+Thumbs.db
 
-# --- Variables de Entorno (Contraseñas y llaves de API) ---
+# Archivos con contraseñas y llaves secretas (¡MUY IMPORTANTE!)
 .env
 .env.local
 *.env
+
+# Carpetas de configuración de editores
+.vscode/
+.idea/
